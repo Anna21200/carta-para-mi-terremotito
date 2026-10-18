@@ -1,0 +1,20 @@
+CARTA INTERACTIVA PARA MI TERREMOTITO ❤️
+
+Archivos:
+- index.html: página inicial, carta y mensaje.
+- styles.css: paleta burdeos/crema, papel envejecido, sobre, lacre y botones.
+- script.js: abrir/cerrar la carta, partículas y mensaje final.
+
+Cómo usar:
+1. Descomprime el ZIP.
+2. En Visual Studio Code, elige Archivo > Abrir carpeta.
+3. Abre la carpeta carta_perdon_interactiva.
+4. Abre index.html en tu navegador con doble clic desde el Explorador de Windows.
+   También puedes usar Live Server y pulsar Go Live.
+
+Interacción:
+- En la página inicial, pulsa “Abrir para ver mis disculpas”.
+- Dentro de la carta, pulsa “Sí, acepto tus disculpas”.
+- Aparecerá “Te amo, mi terremotito. Gracias por darme tu perdón ❤️”.
+
+La tipografía de Google Fonts requiere internet; si no está disponible, se usan fuentes alternativas.

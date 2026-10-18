@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para mi terremotito ❤️</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="fondo">
+    <div class="particulas" aria-hidden="true"></div>
+
+    <section class="inicio" id="inicio">
+      <div class="sobre" aria-hidden="true">
+        <div class="solapa"></div>
+        <div class="sello">♥</div>
+      </div>
+      <p class="frase">Hecho con amor, solo para ti</p>
+      <button class="boton-abrir" id="abrirCarta">♡ Abrir para ver mis disculpas ♡</button>
+      <p class="pista">Toca el botón para abrir tu cartita 💌</p>
+    </section>
+
+    <section class="modal" id="modalCarta" aria-hidden="true">
+      <article class="carta">
+        <button class="cerrar" id="cerrarCarta" aria-label="Cerrar carta">×</button>
+        <div class="sello-carta" aria-hidden="true">♥</div>
+        <div class="papel">
+          <p class="etiqueta">Una carta desde el corazón</p>
+          <h1>Perdón</h1>
+          <div class="floritura">❦ ♥ ❦</div>
+
+          <div class="mensaje">
+            <p>Perdón, de verdad, por lo que pasó esta mañana. Sé que necesitas tu espacio y quiero respetarlo, pero, ey, ¿qué hago si soy una idiota enamorada de esa sonrisa y de esos ojitos que me tienen completamente loca? 🥹❤️</p>
+            <p>Perdóname por ser un poquito inmadura a veces. Sé que tengo cosas que mejorar y quiero hacerlo, porque te amo demasiado como para perderte por una estupidez. Sería una completa idiota si dejara ir algo tan bonito como lo que tenemos por no saber hacer las cosas bien.</p>
+            <p>Esta vez no quería simplemente escribirte una carta de disculpas. Quería mostrarte un poquito de lo que esta cabecita sabe hacer y de lo que tanto le gusta. Puede que no sea la mejor con los números, pero con los códigos y las páginas web me defiendo. 🤭💻❤️</p>
+            <p>Te amo muchísimo, mi terremotito, y te prometo que voy a seguir mejorando, no solo por ti, sino también por mí y por lo bonito que quiero construir contigo. No quiero que mis errores hablen más fuerte que todo el amor que te tengo.</p>
+            <p class="pregunta">Y ahora dime, mi niña bonita… ¿aceptas mis disculpas en código? 🥹❤️‍🩹💻</p>
+            <p class="firma">Con amor,<br><strong>tu idiota enamorada. 💗</strong></p>
+          </div>
+
+          <button class="boton-perdon" id="aceptarPerdon">Sí, acepto tus disculpas ❤️</button>
+          <div class="respuesta" id="respuesta" role="status" aria-live="polite"></div>
+          <p class="pie">Sellada con amor y un poquito de código.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
